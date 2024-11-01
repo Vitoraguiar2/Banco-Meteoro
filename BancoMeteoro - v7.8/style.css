@@ -1,0 +1,160 @@
+p, h1{
+    padding-left: 10px;
+}
+.esq{
+    padding-left: 10px;
+}
+.botao{
+    margin-left: 10px;
+}
+a{
+    color: #fa2d72;
+}
+table, th, td{
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+}
+th{
+    background-color: #212529;
+    font-weight: normal;
+    font-size: 80%;
+    color: white;
+    border: 1px solid white;
+}
+table{
+    margin: 0 auto;
+}
+li{
+    float: left;
+    padding-left: 0;
+}
+ul{
+    list-style: none;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+header{
+    background-color: #212529;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    color: white;
+}
+.date{
+    max-width: 145px;
+}
+.card{
+    background-color: lightgrey;
+    border: solid 1px black;
+    width: 30%;
+    padding: 0;
+    margin: 0 auto;
+}
+.link{
+    padding:0;
+    padding-top: 5px;
+    font-size: small;
+    margin-left: 70%;
+    width: auto;
+    padding-bottom: 10px;
+}
+.aviso{
+    text-align: center;
+    color: red;
+    padding-left: 0px;
+    margin-bottom: 5px;
+}
+.cabecalho{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    padding-left: 0;
+    margin-bottom: 5px;
+    font-size:large;
+}
+.head{
+    background-color: #212529;
+    color: white;
+    width: auto;
+    padding: 0px;
+}
+.direita{
+    margin-left: 90%;
+}
+.esquerda{
+    padding-left: 10px;
+}
+.input{
+    margin-left: 10px;
+    width: 90%;
+}
+.login{
+    background: rgb(240,233,233);
+    background: radial-gradient(circle, rgba(240,233,233,1) 2%, rgba(255,255,255,1) 98%);
+}
+.destaque{
+    font-weight:600;
+}
+.sucesso{
+    text-align: center;
+    color: rgb(10, 155, 10);
+    padding-left: 0px;
+    margin-bottom: 5px;
+}
+.lista{
+    width: 30%;
+}
+
+
+.marca{filter: hue-rotate(240deg)}/*muda a cor das checkboxes*/
+
+.grafico{filter: hue-rotate(165deg)}/*muda a cor das checkboxes*/
+
+.diff{filter: hue-rotate(315deg)}
+
+input[type=checkbox]{/*adiciona um entorno as checkboxes*/
+  cursor: pointer;
+  width: 13px;
+  height: 13px;
+  outline: 2px solid #0a4db3;
+  outline-offset: -2px;
+}
+
+body { cursor: default }
+
+.colu{
+    float: left;
+    width: 13%;
+    color: rgb(24, 21, 21);
+    margin-left: 5px;
+}
+.cart{
+    border: solid 1px black;
+    min-width: auto;
+    max-width: 20%;
+    width: 17%;
+    padding: 0;
+    margin-left:10px;
+    margin-right:10px;
+}
+.textcard{
+    text-align:center; 
+    padding: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: large;
+}
+#footer{
+    background-color: #212529;
+    color: white;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: small;
+}
+#body{/*para manter o footer sempre no fim da página*/
+    min-height: calc(100vh - 29px);
+}
